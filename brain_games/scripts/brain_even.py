@@ -7,7 +7,7 @@ def is_even(number):
 def play_round():
     number = random.randint(1, 100)
     correct_answer = 'yes' if is_even(number) else 'no'
-    print(f'Questions: {number}')
+    print(f'Question: {number}')
     user_answer = prompt.string('Your answer:' )
     if user_answer.lower() == correct_answer:
         print('Correct!')
@@ -27,7 +27,7 @@ def main():
         if not play_round():
             print(f"Let's try again, {name}!")
             return
-    print(f"Congratulations, {name}!")
+    print(f"Congratulation, {name}!")
 
 if __name__ == '__main__':
     main()
