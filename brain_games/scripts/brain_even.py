@@ -27,7 +27,7 @@ def main():
         if not play_round():
             print(f"Let's try again, {name}!")
             return
-    print(f"Congratulation, {name}!")
+    print(f"Congratulations, {name}!")
 
 if __name__ == '__main__':
     main()
