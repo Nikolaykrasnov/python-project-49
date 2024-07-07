@@ -14,13 +14,13 @@ def play_round():
     if user_answer.lower() == correct_answer:
         print('Correct!')
         return True
-    else: 
+    else:
         print(f"""
             {user_answer}' is wrong answer ;(.
             Correct answer was '{correct_answer}'.
             """)
         return False
-    
+
 
 def main():
     print("Welcome to the Brain Games!")
